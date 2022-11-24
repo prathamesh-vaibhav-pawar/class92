@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="next.css">
+    </head>
+    <body>
+        <center></center>
+        <h3 id="player1_name"></h3> <span id="player1_score"></span>
+        <h3 id="player2_name"></h3> <span id="player2_score"></span>
+        <div class="container1">
+            <h1>Maths Quiz</h1><br><br>
+            <h2 id="Question_p"></h2><br><br>
+            <h2 id="Answer_p"></h2>
+            <div class="container2" id="div2"></div>
+            <h2>Number1</h2>
+            <br><br>
+            <input type="text" class="form-control" placeholder="Write first Number" id="in1"><br><br>
+            <h2>Number2</h2><br><br>
+            <input type="text" class="form-control" placeholder="Write second number" id="in2">
+            <br><br>
+            <button class="btn btn-success button" onclick="send_q()">Send</button>
+            <div id="div3"></div>
+        </div>
+    </center>
+    <script src="next.js"></script>
+    </body>
+</html>

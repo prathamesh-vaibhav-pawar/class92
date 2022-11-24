@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: brown;
+}
+h1,h2,h3{
+    color: black;
+}
+h1:hover{
+    color: white;
+}
+h2:hover{
+    color: white;
+}
+h3:hover{
+    color: white;
+}
+input{
+    width: 80%;
+    height: 40px;
+    font-size: x-large;
+}
+button{
+    width: 30%;
+    font-size: x-large;
+}
+.container2{
+    background-color: white;
+    height: 25%;
+    border-radius:20px;
+    border-top:10px solid #AA4465;
+    float: none;
+}
